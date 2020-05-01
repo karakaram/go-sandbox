@@ -1,3 +1,3 @@
-module go-testing-sandbox
+module go-sandbox
 
 go 1.14

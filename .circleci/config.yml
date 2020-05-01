@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.14.2
-    working_directory: /go/src/github.com/karakaram/go-testing-sandbox
+    working_directory: /go/src/github.com/karakaram/go-sandbox
     steps:
       - checkout
 

@@ -1,4 +1,4 @@
-BINARY := go-testing-sandbox
+BINARY := go-sandbox
 MAKEFILE_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
 PATH := $(PATH):${MAKEFILE_DIR}bin

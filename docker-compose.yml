@@ -6,9 +6,9 @@ services:
       dockerfile: Dockerfile
       target: dev
     tty: true
-    working_dir: "/work/go-testing-sandbox"
+    working_dir: "/work/go-sandbox"
     volumes:
-      - ".:/work/go-testing-sandbox"
+      - ".:/work/go-sandbox"
       - "go-pkg:/go/pkg/mod/cache"
     ports:
       - "5000:5000"
